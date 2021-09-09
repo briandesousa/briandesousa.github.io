@@ -1,0 +1,23 @@
+{
+  "name": "briandesousa.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "briandesousa.github.io",
+  "author": "Brian De Sousa",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.13.0",
+    "gatsby-source-contentful": "^5.13.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
