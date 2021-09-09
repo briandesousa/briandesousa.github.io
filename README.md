@@ -1,2 +1,9 @@
 # briandesousa.github.io
-Brian's GitHub IO site
+
+Personal GitHub IO site build with Gatsby and Contentful
+
+## Tech Stack
+
+* Gatsby SSG frontend
+* Conentful backend
+* Hosted on GitHub pages
