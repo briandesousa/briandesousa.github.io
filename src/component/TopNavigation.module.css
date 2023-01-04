@@ -1,0 +1,25 @@
+.navBar { 
+    list-style-type: none;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 1.1em 0;
+}
+
+.navBar li {
+    display: inline-block;
+    padding: 0.5em 1.5em 0.25em 1.5em;
+    margin: 0 1.1em 0 0;
+    background-color: lightsalmon;
+    border-bottom: 0.25em solid transparent;
+}
+
+.navBar li:hover {
+    background-color: darksalmon;
+    border-bottom: 0.25em solid black;
+    cursor: pointer;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}

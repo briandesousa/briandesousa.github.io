@@ -1,4 +1,5 @@
 import * as React from "react"
+import TopNavigation from "../component/TopNavigation"
 
 // styles
 const pageStyles = {
@@ -16,6 +17,7 @@ const headingStyles = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <TopNavigation></TopNavigation>
       <title>briandesousa.github.io | Home</title>
       <h1 style={headingStyles}>
         <span role="img" aria-label="Book emojis">
