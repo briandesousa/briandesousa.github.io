@@ -1,11 +1,12 @@
 # briandesousa.github.io
 
-Personal GitHub IO site build with Gatsby and Contentful
+Personal GitHub IO site build with Gatsby
 
 ## Tech Stack
 
-* Gatsby SSG frontend
-* Conentful backend
+* Node.js 18
+* React 18
+* Gatsby 5 (SSG frontend)
 * Hosted on GitHub pages
 
 # Scripts

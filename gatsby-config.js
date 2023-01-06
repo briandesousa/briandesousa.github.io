@@ -1,15 +1,14 @@
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.briandesousa.github.io",
     title: "briandesousa.github.io",
+    siteUrl: "https://www.briandesousa.github.io",
+    description: `GitHub.io hosted blog built with Gatsby 5`
   },
   plugins: [
-    {
-      resolve: "gatsby-source-contentful",
-      options: {
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-        spaceId: process.env.CONTENTFUL_SPACE_ID
-      },
-    },
   ],
 };
