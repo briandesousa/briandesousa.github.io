@@ -19,11 +19,11 @@ const IndexPage = () => {
       <title>briandesousa.github.io | Home</title>
       <h1 style={headingStyles}>
         <span role="img" aria-label="Book emojis">
-          📗📘📕
+          📗📘📕📙
         </span>
         briandesousa.github.io
       </h1>
-      <p>a work in progress...</p>
+      <p>Future home of Brian's personal blog...</p>
     </main>
   )
 }
