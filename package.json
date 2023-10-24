@@ -1,31 +1,39 @@
 {
-  "name": "briandesousa.github.io",
+  "name": "briandesousa.net",
   "version": "1.0.0",
   "private": true,
-  "description": "briandesousa.github.io",
+  "description": "BrianDeSousa.net",
   "author": "Brian De Sousa",
-  "keywords": [
-    "gatsby"
-  ],
-  "engines": {
-    "node": ">=18.13.0"
-  },
-  "scripts": {
-    "dev": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "npm run build && gh-pages -d public -b gh-pages"
-  },
   "dependencies": {
-    "gatsby": "^5.0.0",
-    "gatsby-source-filesystem": "^5.3.1",
-    "gatsby-transformer-remark": "^6.3.2",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "@fontsource/merriweather": "^5.0.3",
+    "@fontsource-variable/montserrat": "^5.0.4",
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-feed": "^5.12.0",
+    "gatsby-plugin-image": "^3.12.0",
+    "gatsby-plugin-manifest": "^5.12.0",
+    "gatsby-plugin-sharp": "^5.12.0",
+    "gatsby-remark-images": "^7.12.0",
+    "gatsby-remark-prismjs": "^7.12.0",
+    "gatsby-remark-responsive-iframe": "^6.12.0",
+    "gatsby-source-filesystem": "^5.12.0",
+    "gatsby-transformer-remark": "^6.12.0",
+    "gatsby-transformer-sharp": "^5.12.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "prettier": "^2.8.8",
     "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "npm run build && gh-pages -d public -b gh-pages"
   }
 }

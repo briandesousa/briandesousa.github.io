@@ -1,14 +1,15 @@
-# briandesousa.github.io
+# BrianDeSousa.net
 
-Personal GitHub IO site build with Gatsby
+Personal blog
 
 ## Tech Stack
 
-* Node.js 18
 * React 18
-* Gatsby 5 (SSG frontend)
+* Gatsby 5 based on https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/
 * Hosted on GitHub pages
 
 # Scripts
 
-* `npm run dev` to run the site on http://localhost:8000
+* `npm run dev` to run development version of site on http://localhost:8000
+* `npm run serve` to run production version of site
+* `npm run deploy` to deploy to GitHub pages branch using `gh-pages` package
